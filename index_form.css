@@ -1,0 +1,50 @@
+.wrap {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.add {
+    overflow: hidden;
+}
+
+.add .content {
+    width: 498px;
+    margin: 0;
+    padding: 0;
+}
+
+.add .user {
+    float: left;
+}
+
+.add .btn {
+    float: right;
+}
+
+.msg {
+    margin: 20px 0;
+    background: #ccc;
+}
+
+.msg .info {
+    overflow: hidden;
+}
+
+.msg .user {
+    float: left;
+    color: deepskyblue;
+}
+
+.msg .time {
+    float: right;
+    color: #999999;
+}
+
+.msg .content {
+    width: 100%;
+    padding: 5px;
+}
+
+textarea {
+    resize: none;
+}
