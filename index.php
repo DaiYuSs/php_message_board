@@ -1,4 +1,5 @@
-<?php //  require_once ('SQL_Connect.php');?>
+<?php //  require_once ('SQL_Connect.php');
+define('ROOT_ADMIN',true);?>
 <!DOCTYPE html>
 <html>
 <head>

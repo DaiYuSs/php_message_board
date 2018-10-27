@@ -9,9 +9,10 @@ $host = 'localhost';
 $users = 'root';
 $pws = '';
 $db_name = 'php10';
+$DB_NAME = 'msg';
 //连接数据库和默认查询表
 $link = new mysqli($host, $users, $pws, $db_name);
-//$link->select_db(DB_NAME);
+$link->select_db($DB_NAME);
 //数据库连接是否正确判断
 if ($link->connect_errno <> 0) {
     echo $link->connect_error . '</br>';
